@@ -65,6 +65,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ma = this;
+        dbcenter = new DataHelper(this);
+        RefreshList();
+
+
     }
 
     @Override
